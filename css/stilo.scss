@@ -1,0 +1,98 @@
+$amarillo :#e0ee1e;
+$griss:#494949;
+$blanco:#ecf0b9;
+
+
+ @font-face {
+    font-family: pepito;
+    src: url(simpson/tipografia/wolfsbane2.ttf);
+ }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: pepito;
+   
+}
+
+@font-face {
+    font-family: pepito;
+    src: url(../simpson/tipografia/pepito.ttf);
+ }
+
+
+.ola {
+    background-color: #1b1b1b;
+}
+
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+.cuerpo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 30rem;
+}
+
+#header {
+    display: flex;
+    justify-content: end;
+    height: 70rem;
+}
+h1 {
+    color: $blanco;
+   
+}
+.carne {
+    height: 70rem;
+    font-family: pepito;
+}
+
+
+
+.handru{
+    color: white;
+    font-size: 2rem;
+}
+.icono{
+    width: 100%;
+
+}
+
+h1 {
+    font-family: pepito;
+}
+.font {
+    font-family: pepito !important;
+}
+
+
+@media (min-width:100px) and (max-width:991px) {
+       // .seva {
+    //     display: none;
+    // }
+
+    .sequeda {
+        display: none;
+            }
+   
+   
+   
+   
+   
+}
+
+@media (min-width:991.1px) {
+    .seva {
+        display: none;
+    }
+
+    // .sequeda {
+
+    // }
+}
