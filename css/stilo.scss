@@ -43,6 +43,7 @@ body {
     display: flex;
     justify-content: end;
     height: 70rem;
+    padding: 2rem;
 }
 h1 {
     color: $blanco;
@@ -69,6 +70,7 @@ h1 {
 }
 .font {
     font-family: pepito !important;
+    // height: 22rem;
 }
 
 
@@ -87,12 +89,17 @@ h1 {
    
 }
 
-@media (min-width:991.1px) {
+@media (min-width:991.5px) {
     .seva {
         display: none;
     }
 
-    // .sequeda {
+   
+}
 
-    // }
+.sube {
+    height: auto;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

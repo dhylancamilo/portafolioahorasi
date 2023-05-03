@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: end;
   height: 70rem;
+  padding: 2rem;
 }
 
 h1 {
@@ -68,8 +69,13 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 991.1px) {
+@media (min-width: 991.5px) {
   .seva {
     display: none;
   }
+}
+.sube {
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=stilo.css.map */
